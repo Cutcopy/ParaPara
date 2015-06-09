@@ -1,0 +1,28 @@
+{
+  "name": "ParaPara",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Cutcopy/ParaPara",
+  "authors": [
+    "Bryce Stradling <bryce@getvyral.com>"
+  ],
+  "description": "A jade/stylus portfolio website theme",
+  "main": "index.html",
+  "keywords": [
+    "Jade",
+    "stylus",
+    "portfolio",
+    "theme"
+  ],
+  "license": "Artistic License 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "normalize": "~1.0.4"
+  }
+}
