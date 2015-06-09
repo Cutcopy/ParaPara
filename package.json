@@ -1,0 +1,25 @@
+{
+  "name": "ParaPara",
+  "version": "1.0.0",
+  "description": "A jade/stylus portfolio theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cutcopy/ParaPara"
+  },
+  "keywords": [
+    "Jade",
+    "website",
+    "portfolio",
+    "theme"
+  ],
+  "author": "Bryce Stradling",
+  "license": "Artistic License 2.0",
+  "bugs": {
+    "url": "https://github.com/Cutcopy/ParaPara/issues"
+  },
+  "homepage": "https://github.com/Cutcopy/ParaPara"
+}
