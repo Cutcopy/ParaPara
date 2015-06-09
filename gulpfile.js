@@ -11,7 +11,7 @@ var gls = require('gulp-live-server');
 gulp.task('templates', function() {
   var YOUR_LOCALS = {};
  
-  gulp.src('./src/jade/**/*.jade')
+  gulp.src('./src/jade/*.jade')
     .pipe(jade({
       locals: YOUR_LOCALS
     }))
@@ -71,10 +71,10 @@ gulp.task('watch', function() {
 //Live-server
 gulp.task('serve', function() {
     //1. serve with default settings 
-    var server = gls.static('public', 3000); //equals to gls.static('public', 3000); 
+    var server = gls.static('./public', 3000); //equals to gls.static('public', 3000); 
     server.start();
    //watch
-    gulp.watch(['./public/**/*.css', './public/**/*.html'], function () {
+    gulp.watch(['./public/**/*.css', './public/**/*.html', './public/js/*.js'], function () {
         server.notify.apply(server, arguments);
     });
 });
